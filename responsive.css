@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1072px) {
+    .product-widget .product {
+        margin:10px
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .cart_main .cart_main_product {
+        width: 58%;   
+    }
+    .product-widget .product {
+        width: 42%;
+    }
+    .cart_main .cart_main_calc {
+        width: 42%;
+    }
+}
+@media only screen and (max-width: 680px) {
+    .cart_main .cart_main_product {
+        width: 50%;
+    }
+    .product-widget .product {
+        width: 82%;
+    }
+    .cart_main .cart_main_calc {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .cart_main .cart_main_product {
+        width: 100%;
+    }
+    .product-widget .product {
+        width: 94%;
+    }
+    .cart_main .cart_main_calc {
+        width: 100%;
+    }
+    .cart_top .top_center {
+        margin-left: 0;
+    }
+}

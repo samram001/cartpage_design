@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Addtocart Design</title>
+    <base href="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet">
+    <link href="responsive.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="cart_top">
+        <div class="top_left">All Items</div>
+        <div class="top_center"><span class="selectedCount"></span> Items is added to cart</div>
+        <div class="clear_both"></div>
+    </div>
+    <div class="cart_main">
+        <div class="cart_main_product">
+            <div id="productWidget" class="product-widget">
+
+            </div>
+        </div>
+        <div class="cart_main_calc">
+            <div class="cart_calc">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th class="productCount">Qty</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody id="selected_product">
+                        
+                    </tbody>
+                </table>
+
+                <div class="cartTotal">
+                    <p>Totals</p>
+                    <table>
+                        <tr>
+                            <td>Items(<span class="selectedCount"></span>)</td>
+                            <td>:</td>
+                            <td class="price productTotal">$0</td>
+                        </tr>
+                        <tr>
+                            <td>Discount</td>
+                            <td>:</td>
+                            <td class="price discountAmount">$0</td>
+                        </tr>
+                        <tr>
+                            <td>Typed Discount</td>
+                            <td>:</td>
+                            <td class="price">$0</td>
+                        </tr>
+                        <tr class="finalTotal">
+                            <td>Total</td>
+                            <td>:</td>
+                            <td class="price overallTotal">$0</td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script  src="script.js" ></script>
+</body>
+
+</html>
